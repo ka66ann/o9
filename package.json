@@ -1,0 +1,16 @@
+{
+  "name": "eleventy-api-screenshot",
+  "version": "1.0.0",
+  "description": "A service to add web page screenshots to your Eleventy sites.",
+  "scripts": {
+    "su": "surge publish  --domain https://9o.surge.sh",
+    "u": "npx ncu -u && npm update -f"
+  },
+  "dependencies": {
+    "@netlify/functions": "latest",
+    "chrome-aws-lambda": "latest",
+    "isomorphic-unfetch": "latest",
+    "netlify-cli": "^10.4.0",
+    "puppeteer-core": "latest"
+  }
+}
